@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="ab0fd8df-928a-4996-992a-cd865e40ce6a" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/patient-management.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/patient-service/src/main/java/com/pm/patientservice/models/Patient.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="EmbeddingIndexingInfo">
+    <option name="cachedIndexableFilesCount" value="20" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="KubernetesApiProvider"><![CDATA[{
+  "isMigrated": true
+}]]></component>
+  <component name="McpProjectServerCommands">
+    <commands />
+    <urls />
+  </component>
+  <component name="NextEditCompletionFeaturesState">
+    <decayedCancelled>
+      <entry key="MS100" value="1.0" />
+      <entry key="MS500" value="1.0000000001852252" />
+      <entry key="S2" value="1.0036891567511155" />
+      <entry key="S5" value="1.1075661492070532" />
+      <entry key="S10" value="1.3954712301872776" />
+      <entry key="S30" value="3.2192413505096105" />
+      <entry key="S60" value="6.99810007946575" />
+      <entry key="M2" value="14.131675604611473" />
+      <entry key="M5" value="25.817214403615495" />
+      <entry key="M10" value="32.910659007625995" />
+      <entry key="M15" value="35.876799827843826" />
+      <entry key="M30" value="39.220593618187586" />
+      <entry key="H1" value="41.05185423246359" />
+      <entry key="H2" value="42.01078229587224" />
+      <entry key="H4" value="42.50153582326258" />
+      <entry key="D1" value="42.91638119607632" />
+      <entry key="W1" value="42.98804111805765" />
+    </decayedCancelled>
+    <decayedSelected>
+      <entry key="MS100" value="3.812796462722156E-16" />
+      <entry key="MS500" value="8.246422043259447E-4" />
+      <entry key="S2" value="0.185704703798217" />
+      <entry key="S5" value="0.8120984834422007" />
+      <entry key="S10" value="1.704551092967688" />
+      <entry key="S30" value="3.78763882753909" />
+      <entry key="S60" value="5.749127249691199" />
+      <entry key="M2" value="8.793804826807309" />
+      <entry key="M5" value="14.555754161538314" />
+      <entry key="M10" value="18.618582216460315" />
+      <entry key="M15" value="20.42695561159564" />
+      <entry key="M30" value="22.535139382398615" />
+      <entry key="H1" value="23.71901281566254" />
+      <entry key="H2" value="24.346830217080004" />
+      <entry key="H4" value="24.67017623264601" />
+      <entry key="D1" value="24.944573471021332" />
+      <entry key="W1" value="24.99207067962775" />
+    </decayedSelected>
+    <decayedShown>
+      <entry key="MS100" value="2.670949786930953E-9" />
+      <entry key="MS500" value="0.019305774424997174" />
+      <entry key="S2" value="0.4473497749799638" />
+      <entry key="S5" value="1.360379946805623" />
+      <entry key="S10" value="2.678557973654313" />
+      <entry key="S30" value="6.750789231416855" />
+      <entry key="S60" value="12.530312057272488" />
+      <entry key="M2" value="22.727567453772405" />
+      <entry key="M5" value="40.23035635447146" />
+      <entry key="M10" value="51.43783039446207" />
+      <entry key="M15" value="56.23712340401239" />
+      <entry key="M30" value="61.71918337413262" />
+      <entry key="H1" value="64.75170158660005" />
+      <entry key="H2" value="66.34779590891564" />
+      <entry key="H4" value="67.16674382144738" />
+      <entry key="D1" value="67.86011817676638" />
+      <entry key="W1" value="67.97999209041635" />
+    </decayedShown>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1,
+  &quot;fromUser&quot;: false
+}</component>
+  <component name="ProjectId" id="3EheV8Fw8ZK9r94Jo3ygYAR6qHW" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.MCP Project settings loaded": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Spring Boot.PatientServiceApplication.executor": "Coverage",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
+    "git-widget-placeholder": "main",
+    "junie.onboarding.icon.badge.shown": "true",
+    "kotlin-language-version-configured": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "to.speed.mode.migration.done": "true",
+    "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "postgresql"
+    ]
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration name="Unnamed" type="Application" factoryName="Application" nameIsGenerated="true">
+      <envs>
+        <env name="DB_PASSWORD" value="WxbjcatVXxHHwn7" />
+        <env name="DB_URL" value="jdbc:postgresql://147.93.153.134:5432/postgres" />
+        <env name="DB_USERNAME" value="postgres" />
+        <env name="JWT_EXPIRATION_MS" value="600000" />
+        <env name="JWT_REFRESH_TOKEN_EXPIRATION_MS" value="604800000" />
+        <env name="JWT_TOKEN_SECRET" value="dBE8LTvOwjKJDeihMYdqJ0iDRaWs4WeRPuQjyoPWPew\=" />
+      </envs>
+      <option name="MAIN_CLASS_NAME" value="com.pm.patientservice.PatientServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-30f59d01ecdd-37e91769500f-intellij.indexing.shared.core-IU-261.24374.151" />
+        <option value="bundled-js-predefined-d6986cc7102b-31caf2ab9e3c-JavaScript-IU-261.24374.151" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ab0fd8df-928a-4996-992a-cd865e40ce6a" name="Changes" comment="" />
+      <created>1780635253717</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1780635253717</updated>
+      <workItem from="1780635254961" duration="1271000" />
+      <workItem from="1780636535951" duration="525000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/patient_management$PatientServiceApplication.ic" NAME="PatientServiceApplication Coverage Results" MODIFIED="1780636982687" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>com.pm.patientservice.*</FILTER>
+    </SUITE>
+  </component>
+</project>
