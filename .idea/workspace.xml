@@ -5,23 +5,44 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ab0fd8df-928a-4996-992a-cd865e40ce6a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/patient-management.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/patient-service/src/main/java/com/pm/patientservice/models/Patient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/billing-service/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/billing-service/src/main/java/com/pm/billingservice/grpc/BillingGRPCService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/billing-service/src/main/proto/billingService.proto" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="EmbeddingIndexingInfo">
-    <option name="cachedIndexableFilesCount" value="20" />
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$/billing-service">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="billing-service" type="f1a62948:ProjectNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -33,70 +54,89 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="KubernetesApiProvider"><![CDATA[{
-  "isMigrated": true
-}]]></component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;azammustafa66&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/azammustafa66/patient-management-microservice.git&quot;,
+    &quot;accountId&quot;: &quot;5e49dc2c-0cb3-4af6-af93-fb6edb0e014b&quot;
+  }
+}</component>
+  <component name="KubernetesApiProvider">{
+  &quot;isMigrated&quot;: true
+}</component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHomeTypeForPersistence" value="WRAPPER" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
   <component name="McpProjectServerCommands">
     <commands />
     <urls />
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.0" />
-      <entry key="MS500" value="1.0000000001852252" />
-      <entry key="S2" value="1.0036891567511155" />
-      <entry key="S5" value="1.1075661492070532" />
-      <entry key="S10" value="1.3954712301872776" />
-      <entry key="S30" value="3.2192413505096105" />
-      <entry key="S60" value="6.99810007946575" />
-      <entry key="M2" value="14.131675604611473" />
-      <entry key="M5" value="25.817214403615495" />
-      <entry key="M10" value="32.910659007625995" />
-      <entry key="M15" value="35.876799827843826" />
-      <entry key="M30" value="39.220593618187586" />
-      <entry key="H1" value="41.05185423246359" />
-      <entry key="H2" value="42.01078229587224" />
-      <entry key="H4" value="42.50153582326258" />
-      <entry key="D1" value="42.91638119607632" />
-      <entry key="W1" value="42.98804111805765" />
+      <entry key="MS100" value="1.9440060363732954" />
+      <entry key="MS500" value="4.203184967204696" />
+      <entry key="S2" value="5.444374307303095" />
+      <entry key="S5" value="5.7947234249034185" />
+      <entry key="S10" value="6.881546925020233" />
+      <entry key="S30" value="18.123888494481555" />
+      <entry key="S60" value="31.16012882225354" />
+      <entry key="M2" value="47.13214011011195" />
+      <entry key="M5" value="71.03236298108972" />
+      <entry key="M10" value="86.64203591609915" />
+      <entry key="M15" value="93.52969490278406" />
+      <entry key="M30" value="101.56517132430706" />
+      <entry key="H1" value="106.0896814206609" />
+      <entry key="H2" value="108.4941416579823" />
+      <entry key="H4" value="109.73407161209963" />
+      <entry key="D1" value="110.78717820393275" />
+      <entry key="W1" value="110.96955160460088" />
     </decayedCancelled>
     <decayedSelected>
-      <entry key="MS100" value="3.812796462722156E-16" />
-      <entry key="MS500" value="8.246422043259447E-4" />
-      <entry key="S2" value="0.185704703798217" />
-      <entry key="S5" value="0.8120984834422007" />
-      <entry key="S10" value="1.704551092967688" />
-      <entry key="S30" value="3.78763882753909" />
-      <entry key="S60" value="5.749127249691199" />
-      <entry key="M2" value="8.793804826807309" />
-      <entry key="M5" value="14.555754161538314" />
-      <entry key="M10" value="18.618582216460315" />
-      <entry key="M15" value="20.42695561159564" />
-      <entry key="M30" value="22.535139382398615" />
-      <entry key="H1" value="23.71901281566254" />
-      <entry key="H2" value="24.346830217080004" />
-      <entry key="H4" value="24.67017623264601" />
-      <entry key="D1" value="24.944573471021332" />
-      <entry key="W1" value="24.99207067962775" />
+      <entry key="MS100" value="5.578716678113856E-140" />
+      <entry key="MS500" value="1.41028491702398E-28" />
+      <entry key="S2" value="1.0897495924997229E-7" />
+      <entry key="S5" value="0.0016403279541402757" />
+      <entry key="S10" value="0.04050110536282593" />
+      <entry key="S30" value="0.35999711874003926" />
+      <entry key="S60" value="0.9663925503997465" />
+      <entry key="M2" value="3.027460971398297" />
+      <entry key="M5" value="9.354470311477023" />
+      <entry key="M10" value="15.138784920136487" />
+      <entry key="M15" value="18.00923938053317" />
+      <entry key="M30" value="21.56717192941149" />
+      <entry key="H1" value="23.66053686894437" />
+      <entry key="H2" value="24.797596166931896" />
+      <entry key="H4" value="25.390377546292484" />
+      <entry key="D1" value="25.897204638251985" />
+      <entry key="W1" value="25.98528547297881" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="2.670949786930953E-9" />
-      <entry key="MS500" value="0.019305774424997174" />
-      <entry key="S2" value="0.4473497749799638" />
-      <entry key="S5" value="1.360379946805623" />
-      <entry key="S10" value="2.678557973654313" />
-      <entry key="S30" value="6.750789231416855" />
-      <entry key="S60" value="12.530312057272488" />
-      <entry key="M2" value="22.727567453772405" />
-      <entry key="M5" value="40.23035635447146" />
-      <entry key="M10" value="51.43783039446207" />
-      <entry key="M15" value="56.23712340401239" />
-      <entry key="M30" value="61.71918337413262" />
-      <entry key="H1" value="64.75170158660005" />
-      <entry key="H2" value="66.34779590891564" />
-      <entry key="H4" value="67.16674382144738" />
-      <entry key="D1" value="67.86011817676638" />
-      <entry key="W1" value="67.97999209041635" />
+      <entry key="MS100" value="1.8887988273849923" />
+      <entry key="MS500" value="4.181222452042868" />
+      <entry key="S2" value="5.437413001743756" />
+      <entry key="S5" value="5.7932207160507305" />
+      <entry key="S10" value="6.9178971671924385" />
+      <entry key="S30" value="18.474189263193068" />
+      <entry key="S60" value="32.10469128441709" />
+      <entry key="M2" value="50.1036074872592" />
+      <entry key="M5" value="80.30148950310927" />
+      <entry key="M10" value="101.70980568688447" />
+      <entry key="M15" value="111.4824183883397" />
+      <entry key="M30" value="123.09848589513936" />
+      <entry key="H1" value="129.7316624134108" />
+      <entry key="H2" value="133.28202084378597" />
+      <entry key="H4" value="135.11947661032445" />
+      <entry key="D1" value="136.68353786505935" />
+      <entry key="W1" value="136.95471596434191" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -113,6 +153,8 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Maven.billing-service [compile].executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RequestMappingsPanelOrder0": "0",
     "RequestMappingsPanelOrder1": "1",
@@ -120,20 +162,26 @@
     "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.MCP Project settings loaded": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "Spring Boot.PatientServiceApplication.executor": "Coverage",
+    "Spring Boot.BillingServiceApplication.executor": "Run",
+    "Spring Boot.PatientServiceApplication.executor": "Run",
     "codeWithMe.voiceChat.enabledByDefault": "false",
     "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
     "git-widget-placeholder": "main",
     "junie.onboarding.icon.badge.shown": "true",
     "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/azam/dev/web-dev/backend/patient-management/billing-service",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2",
     "to.speed.mode.migration.done": "true",
     "vue.rearranger.settings.migration": "true"
   },
@@ -143,17 +191,113 @@
     ]
   }
 }]]></component>
-  <component name="RunManager">
-    <configuration name="Unnamed" type="Application" factoryName="Application" nameIsGenerated="true">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/billing-service" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.BillingServiceApplication">
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <module name="patient-management" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
       <envs>
-        <env name="DB_PASSWORD" value="WxbjcatVXxHHwn7" />
-        <env name="DB_URL" value="jdbc:postgresql://147.93.153.134:5432/postgres" />
-        <env name="DB_USERNAME" value="postgres" />
-        <env name="JWT_EXPIRATION_MS" value="600000" />
-        <env name="JWT_REFRESH_TOKEN_EXPIRATION_MS" value="604800000" />
-        <env name="JWT_TOKEN_SECRET" value="dBE8LTvOwjKJDeihMYdqJ0iDRaWs4WeRPuQjyoPWPew\=" />
+        <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="MAIN_CLASS_NAME" value="com.pm.patientservice.PatientServiceApplication" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="DEBUG_JUST_MY_CODE" value="false" />
+      <option name="RUN_TOOL" value="" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="Tox" factoryName="Tox">
+      <module name="billing-service" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="DEBUG_JUST_MY_CODE" value="false" />
+      <option name="RUN_TOOL" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Autodetect">
+      <module name="patient-management" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="DEBUG_JUST_MY_CODE" value="false" />
+      <option name="RUN_TOOL" value="" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Doctests">
+      <module name="patient-management" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="DEBUG_JUST_MY_CODE" value="false" />
+      <option name="RUN_TOOL" value="" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="patient-management" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="patient-management" />
+      <option name="filePath" />
+      <method v="2" />
+    </configuration>
+    <configuration name="BillingServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="billing-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.pm.billingservice.BillingServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PatientServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="homebrew-21" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="patient-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.pm.patientservice.PatientServiceApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -176,11 +320,47 @@
       <updated>1780635253717</updated>
       <workItem from="1780635254961" duration="1271000" />
       <workItem from="1780636535951" duration="525000" />
+      <workItem from="1780653337649" duration="258000" />
+      <workItem from="1780980323198" duration="252000" />
+      <workItem from="1780981810941" duration="10342000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="OPEN_GENERIC_TABS">
+      <map>
+        <entry key="64c002a6-e75b-404f-8776-ca0938dcddf9" value="TOOL_WINDOW" />
+      </map>
+    </option>
+    <option name="TAB_STATES">
+      <map>
+        <entry key="64c002a6-e75b-404f-8776-ca0938dcddf9">
+          <value>
+            <State />
+          </value>
+        </entry>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="main" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/patient_management$PatientServiceApplication.ic" NAME="PatientServiceApplication Coverage Results" MODIFIED="1780636982687" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
