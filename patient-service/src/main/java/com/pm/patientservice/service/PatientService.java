@@ -1,6 +1,7 @@
 package com.pm.patientservice.service;
 
 import com.pm.patientservice.dto.PatientDTO;
+import com.pm.patientservice.grpc.BillingServiceGRPCClient;
 import com.pm.patientservice.models.Patient;
 import com.pm.patientservice.repos.PatientRepo;
 import lombok.RequiredArgsConstructor;
@@ -17,18 +18,21 @@ import java.util.UUID;
 public class PatientService {
     private final PatientRepo patientRepo;
     private final ModelMapper modelMapper;
+    private final BillingServiceGRPCClient billingServiceGRPCClient;
 
     public List<PatientDTO> getAllPatients() {
         return patientRepo.findAll().stream().map(p -> modelMapper.map(p, PatientDTO.class)).toList();
     }
 
-    public PatientDTO createPatient(PatientDTO dto) {
-        if (patientRepo.findByEmail(dto.getEmail()).isPresent()) {
+    public PatientDTO createPatient(PatientDTO request) {
+        if (patientRepo.findByEmail(request.getEmail()).isPresent()) {
             throw new ResponseStatusException(HttpStatus.CONFLICT, "Email already in use");
         }
-        Patient patient = modelMapper.map(dto, Patient.class);
+        Patient patient = modelMapper.map(request, Patient.class);
         patient.setId(null);
-        return modelMapper.map(patientRepo.save(patient), PatientDTO.class);
+        Patient saved = patientRepo.save(patient);
+        billingServiceGRPCClient.createBillingAccount(saved.getId().toString(), saved.getFirstName() + saved.getLastName(), saved.getEmail());
+        return modelMapper.map(saved, PatientDTO.class);
     }
 
     public PatientDTO findByEmail(String email) {

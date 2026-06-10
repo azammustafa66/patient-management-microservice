@@ -1,4 +1,4 @@
-FROM eclipse-temurin:21-jdk-alpine AS build
+FROM eclipse-temurin:21-jdk AS build
 WORKDIR /app
 COPY mvnw .
 COPY .mvn .mvn
@@ -12,5 +12,6 @@ WORKDIR /app
 RUN addgroup -S app && adduser -S app -G app
 USER app
 COPY --from=build /app/target/*.jar app.jar
-EXPOSE 8080
+EXPOSE 8081
+EXPOSE 9001
 ENTRYPOINT ["java", "-jar", "/app/app.jar"]
